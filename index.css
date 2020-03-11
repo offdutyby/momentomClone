@@ -1,11 +1,33 @@
+@font-face { font-family: 'TTTogether'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 body {
     background-color: #2c3e50;
 }
 
 body {
+    font-family: 'TTTogether';
+    margin-top: 10%;
+    padding: 50px 20px;
+    text-align: center;
+    color: rgb(15, 240, 154);
+}
+
+.js-clock{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+input{
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 22px;
     color: white;
-    font-size: x-large;
-    font-family: sans-serif;
+    border-bottom: 2px solid white;
+}
+
+ul{
+    list-style: none;
 }
 
 .form,
